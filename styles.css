@@ -1,0 +1,29 @@
+body{
+    Input Text: #3c3f39
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Create 2 equal columns floating next to each other*/
+.column_left{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color: #a4c4b5
+}
+
+.column_right{
+    float: right;
+    width: 50%;
+    padding: 10px;
+    background-color: #ffffff
+}
+
+/* Clears floats after the columns */
+row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
